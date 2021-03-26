@@ -1,15 +1,30 @@
 {
 	"Entities": {
+		"EN_BUSCARPID_564": {
+			"name": "BuscarProductoCodigo"
+		},
+		"EN_PRODUCTAR_638": {
+			"name": "ProductoDRA"
+		},
+		"EN_PRODUCTRA_435": {
+			"name": "ProductoToFactura"
+		}
 	},
 	"FCTRC": {
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_VNTASAMFLELZO_924": {
+				"name": "BucarProductoToFacturaFRM"
+			},
 			"T_VNTASHOPPAOJM_591": {
 				"name": "ClienteFRM"
 			}
 		},
 		"Queries": {
+			"Q_PRODDROD_BC88": {
+				"name": "ProductoDRAQuery_BC88"
+			}
 		},
 		"SubForms": {
 		}
