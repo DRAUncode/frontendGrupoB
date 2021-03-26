@@ -1,0 +1,100 @@
+{
+	"filename": "C:\\Users\\jorge\\Desktop\\Trabajos_Capacitacion_fase3\\BLIS\\sp_productg.sql",
+	"procedure": {
+		"database": "master",
+		"name": "sp_gB_producto",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_precio"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "5e1da5c7-7724-4c92-bc46-9f6aedcf4bdf",
+				"columns": [
+					"Codigo",
+					"Nombre",
+					"Precio"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+			},
+			{
+				"_idQuery": "46757abf-387c-4548-acd4-78995f3d8cfc",
+				"columns": [
+					"Codigo",
+					"Nombre",
+					"Precio"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

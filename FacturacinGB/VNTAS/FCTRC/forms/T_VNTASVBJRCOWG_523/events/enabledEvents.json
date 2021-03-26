@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONDPKKAET_915913",
+		"controlName": "VA_VABUTTONDPKKAET_915913",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONLJRDRMK_510913",
+		"controlName": "VA_VABUTTONLJRDRMK_510913",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_CREARPROCM_605523",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

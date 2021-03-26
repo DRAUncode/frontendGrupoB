@@ -19,6 +19,9 @@
 			},
 			"T_VNTASHOPPAOJM_591": {
 				"name": "ClienteFRM"
+			},
+			"T_VNTASVBJRCOWG_523": {
+				"name": "CrearProductoJms"
 			}
 		},
 		"Queries": {
