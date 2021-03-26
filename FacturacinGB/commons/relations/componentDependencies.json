@@ -6,6 +6,14 @@
 			"labels": [
 			]
 		},
+		"EN_CLIENTEBB_207": {
+			"labels": [
+			]
+		},
+		"EN_CLIENTEDF_889": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTAR_638": {
 			"labels": [
 			]
@@ -13,66 +21,9 @@
 		"EN_PRODUCTRA_435": {
 			"labels": [
 			]
-		},
-              "EN_CLIENTEBB_207": {
-			"labels": [
-			]
-		},
-		"EN_CLIENTEDF_889": {
-			"labels": [
-			]
 		}
 	},
 	"Forms": {
-		"T_VNTASAMFLELZO_924": {
-			"blis": [
-			],
-			"entities": {
-				"EN_BUSCARPID_564": [
-					"AT58_CODIGORC564"
-				],
-				"EN_PRODUCTAR_638": [
-					"AT12_PRECIOVW638",
-					"AT56_CODIGOMP638",
-					"AT89_NOMBREUN638"
-				],
-				"EN_PRODUCTRA_435": [
-					"AT82_NOMBREQP435",
-					"AT83_CANTIDDD435",
-					"AT87_SUBTOTLA435",
-					"AT95_CODIGORK435",
-					"AT96_PRECIOKQ435"
-				]
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-				"LBL_VNTAS_ACEPTARYJ_45622",
-				"LBL_VNTAS_BUSCARKFM_71068",
-				"LBL_VNTAS_CANTIDADD_39908",
-				"LBL_VNTAS_CODIGOPHK_71328",
-				"LBL_VNTAS_NOMBREHTO_29658",
-				"LBL_VNTAS_PRECIORNV_35983",
-				"LBL_VNTAS_SUBTOTALL_45341"
-			],
-			"queries": {
-				"Q_PRODDROD_BC88": [
-					"",
-					"",
-					"",
-					"",
-					"QM_PRODD8D88D676_03",
-					"QM_PRODDDR88R997_02",
-					"QM_PRODDOBRRR506_01"
-				]
-			},
-			"subForms": [
-			]
-		},
 		"T_VNTASHOPPAOJM_591": {
 			"blis": [
 				"BLI8736_bli_eliminarcliente",
@@ -108,39 +59,7 @@
 			"subForms": [
 			]
 		},
-		"T_VNTASVBJRCOWG_523": {
-			"blis": [
-				"BLI2705_bli_crearproducto"
-			],
-			"entities": {
-				"EN_PRODUCTAR_638": [
-					"AT12_PRECIOVW638",
-					"AT56_CODIGOMP638",
-					"AT89_NOMBREUN638"
-				]
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-				"LBL_VNTAS_ACTUALIZZ_52210",
-				"LBL_VNTAS_CODIGOYRV_66784",
-				"LBL_VNTAS_INGRESARR_89611",
-				"LBL_VNTAS_NOMBREGPI_12910",
-				"LBL_VNTAS_PRECIORNV_35983",
-				"MSG_VNTAS_INGRESACO_63492",
-				"MSG_VNTAS_INGRESAIE_88053",
-				"MSG_VNTAS_INGRESAON_58658"
-			],
-			"queries": {
-			},
-			"subForms": [
-			]
-		},
-"T_VNTASOWLLIHDH_105": {
+		"T_VNTASOWLLIHDH_105": {
 			"blis": [
 			],
 			"entities": {
@@ -183,14 +102,42 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_VNTASVBJRCOWG_523": {
+			"blis": [
+				"BLI2705_bli_crearproducto"
+			],
+			"entities": {
+				"EN_PRODUCTAR_638": [
+					"AT12_PRECIOVW638",
+					"AT56_CODIGOMP638",
+					"AT89_NOMBREUN638"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_VNTAS_ACTUALIZZ_52210",
+				"LBL_VNTAS_CODIGOYRV_66784",
+				"LBL_VNTAS_INGRESARR_89611",
+				"LBL_VNTAS_NOMBREGPI_12910",
+				"LBL_VNTAS_PRECIORNV_35983",
+				"MSG_VNTAS_INGRESACO_63492",
+				"MSG_VNTAS_INGRESAIE_88053",
+				"MSG_VNTAS_INGRESAON_58658"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
-		"Q_PRODDROD_BC88": {
-			"labels": [
-			]
-		},
-        "Q_CLIEENNT_OJ89": {
+		"Q_CLIEENNT_OJ89": {
 			"labels": [
 			]
 		}
