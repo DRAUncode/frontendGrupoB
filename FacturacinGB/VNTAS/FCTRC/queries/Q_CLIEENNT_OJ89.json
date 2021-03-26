@@ -1,0 +1,160 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEENNT_OJ89_628",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEENNT_OJ89",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTEDF_889",
+	"mainEntityModule": "VNTAS",
+	"mainEntityName": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/Entities/EN_CLIENTEDF_889/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/FCTRC/Queries/Q_CLIEENNT_OJ89/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "direccion",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT69_DIRECCIN889"
+			},
+			"attributeQuery": "direccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE98NOT525_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT59_APELLIOO889"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEN8NNJ878_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT32_CEDULAVN889"
+			},
+			"attributeQuery": "cedula",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEN8OJ8877_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT43_NOMBREKA889"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEENN9OO378_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT33_TELEFONO889"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEETJ8JJ507_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "VNTAS",
+				"subModuleId": "FCTRC"
+			}
+		}
+	]
+}

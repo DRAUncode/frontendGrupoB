@@ -1,0 +1,97 @@
+{
+	"filename": "D:\\BRYAN\\CAPACITACIONCMC\\sps\\sp_clientes.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_gb_cliente",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_caracter"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_telefono"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_direccion"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "16285e83-8705-4810-b164-0a4088402a9c",
+				"columns": [
+					"cedula",
+					"nombre",
+					"apellido",
+					"direccion",
+					"telefono",
+					"estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027cedula\u0027\t= cl_cedula,\r\n\t\t\u0027nombre\u0027\t= cl_nombre,\r\n\t\t\u0027apellido\u0027\t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027  = cl_telefono,\r\n\t\t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+			},
+			{
+				"_idQuery": "602360fb-55e3-48f2-a4d8-c1af7a1d68bc",
+				"columns": [
+					"cedula",
+					"nombre",
+					"apellido",
+					"direccion",
+					"telefono"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027cedula\u0027\t= cl_cedula,\r\n\t\t\u0027nombre\u0027\t= cl_nombre,\r\n\t\t\u0027apellido\u0027\t= cl_apellido,\r\n\t\t\u0027direccion\u0027 = cl_direccion,\r\n\t\t\u0027telefono\u0027  = cl_telefono\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}
