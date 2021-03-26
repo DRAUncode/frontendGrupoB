@@ -1,0 +1,21 @@
+{
+    "VNTAS": [
+        {
+            "entities": {
+                "inputEntity": [
+                    {
+                        "entityId": "EN_PRODUCTAR_638",
+                        "moduleId": "VNTAS",
+                        "related": false
+                    }
+                ],
+                "outputEntity": [
+                ],
+                "returnEntity": [
+                ]
+            },
+            "idBli": "BLI2705_bli_crearproducto",
+            "nameBli": "BLI_CrearProducto"
+        }
+    ]
+}

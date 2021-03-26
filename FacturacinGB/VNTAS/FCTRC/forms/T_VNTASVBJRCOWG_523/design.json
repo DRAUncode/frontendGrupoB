@@ -1,0 +1,432 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "VNTAS",
+		"subModuleId": "FCTRC",
+		"taskId": "T_VNTASVBJRCOWG_523",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CREARPROCM_605523",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../VNTAS/relations/componentKeys.json#/FCTRC/Forms/T_VNTASVBJRCOWG_523/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_VNTASVBJRCOWG_523_864",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "VNTAS",
+				"subModuleId": "FCTRC",
+				"taskId": "T_VNTASVBJRCOWG_523",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CREARPROCM_605523"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "CrearProductoJms",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../VNTAS/entities/EN_PRODUCTAR_638.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CREARPRDCS_229913",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1499",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT56_CODIGOMP638"
+								},
+								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_CODIGOLMSTUGCIW_41791331",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/MSG/MSG_VNTAS_INGRESACO_63492"
+											},
+											"labelId": "MSG_VNTAS_INGRESACO_63492",
+											"moduleId": "VNTAS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_CODIGOYRV_66784"
+									},
+									"labelId": "LBL_VNTAS_CODIGOYRV_66784",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CODIGOLMSTUGCIW_417913",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT89_NOMBREUN638"
+								},
+								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_NOMBRECVCBJPLQA_83291399",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/MSG/MSG_VNTAS_INGRESAON_58658"
+											},
+											"labelId": "MSG_VNTAS_INGRESAON_58658",
+											"moduleId": "VNTAS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_NOMBREGPI_12910"
+									},
+									"labelId": "LBL_VNTAS_NOMBREGPI_12910",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBRECVCBJPLQA_832913",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT12_PRECIOVW638"
+								},
+								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_PRECIORNFVFAPBS_76891337",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/MSG/MSG_VNTAS_INGRESAIE_88053"
+											},
+											"labelId": "MSG_VNTAS_INGRESAIE_88053",
+											"moduleId": "VNTAS"
+										},
+										"visualValidationType": {
+											"description": "Required Validation",
+											"visualValidationId": "Required"
+										}
+									}
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_PRECIORNV_35983"
+									},
+									"labelId": "LBL_VNTAS_PRECIORNV_35983",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "precio",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_PRECIORNFVFAPBS_768913",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONDPKKAET_915913_829",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 3,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_ACTUALIZZ_52210"
+									},
+									"labelId": "LBL_VNTAS_ACTUALIZZ_52210",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONDPKKAET_915913",
+								"options": 8,
+								"order": 5,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONDPKKAET_915913",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONLJRDRMK_510913_315",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI2705_bli_crearproducto",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONLJRDRMK_510913"
+											}
+										],
+										"executionType": 3,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_INGRESARR_89611"
+									},
+									"labelId": "LBL_VNTAS_INGRESARR_89611",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONLJRDRMK_510913",
+								"options": 8,
+								"order": 4,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONLJRDRMK_510913",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CREARPROOD_913"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "VNTAS"
+					}
+				],
+				"name": "View of CrearProductoJms"
+			}
+		}
+	]
+}
