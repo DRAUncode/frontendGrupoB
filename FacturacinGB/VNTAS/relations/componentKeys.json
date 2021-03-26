@@ -1,0 +1,17 @@
+{
+	"Entities": {
+	},
+	"FCTRC": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_VNTASHOPPAOJM_591": {
+				"name": "ClienteFRM"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+	},
+	"Forms": {
+		"T_VNTASHOPPAOJM_591": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2024 BETA",
+	"moduleId": "VNTAS",
+	"modules": [
+		{
+			"moduleId": "VNTAS",
+			"moduleName": "Ventas",
+			"subModules": [
+				{
+					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion"
+				}
+			]
+		}
+	],
+	"projectName": "FacturacinGB",
+	"subModuleId": "FCTRC"
+}
