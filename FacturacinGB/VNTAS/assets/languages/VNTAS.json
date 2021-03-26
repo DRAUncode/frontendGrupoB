@@ -1,10 +1,15 @@
 {
-    "VNTAS": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"VNTAS": {
+		"LBL": {
+			"LBL_VNTAS_ACEPTARYJ_45622": "Aceptar",
+			"LBL_VNTAS_BUSCARKFM_71068": "Buscar",
+			"LBL_VNTAS_CANTIDADD_39908": "Cantidad",
+			"LBL_VNTAS_CODIGOPHK_71328": "codigo",
+			"LBL_VNTAS_NOMBREHTO_29658": "nombre",
+			"LBL_VNTAS_PRECIORNV_35983": "Precio",
+			"LBL_VNTAS_SUBTOTALL_45341": "Subtotal"
+		},
+		"MSG": {
+		}
+	}
 }

@@ -1,2 +1,9 @@
 {
+	"EN_PRODUCTAR_638": {
+		"queries": {
+			"Q_PRODDROD_BC88": {
+				"$ref": "../FCTRC/queries/Q_PRODDROD_BC88.json#"
+			}
+		}
+	}
 }
