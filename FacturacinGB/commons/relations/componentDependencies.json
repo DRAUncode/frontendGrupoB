@@ -13,6 +13,14 @@
 		"EN_PRODUCTRA_435": {
 			"labels": [
 			]
+		},
+              "EN_CLIENTEBB_207": {
+			"labels": [
+			]
+		},
+		"EN_CLIENTEDF_889": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
@@ -67,8 +75,18 @@
 		},
 		"T_VNTASHOPPAOJM_591": {
 			"blis": [
+				"BLI8736_bli_eliminarcliente",
+				"BLI9355_bli_ingresarcliente",
+				"BLI9722_bli_actualizarcliente"
 			],
 			"entities": {
+				"EN_CLIENTEDF_889": [
+					"AT32_CEDULAVN889",
+					"AT33_TELEFONO889",
+					"AT43_NOMBREKA889",
+					"AT59_APELLIOO889",
+					"AT69_DIRECCIN889"
+				]
 			},
 			"externalEntities": {
 			},
@@ -79,6 +97,13 @@
 			"labels": [
 			],
 			"queries": {
+				"Q_CLIEENNT_OJ89": [
+					"QM_CLIEE98NOT525_04",
+					"QM_CLIEEN8NNJ878_03",
+					"QM_CLIEEN8OJ8877_01",
+					"QM_CLIEENN9OO378_02",
+					"QM_CLIEETJ8JJ507_05"
+				]
 			},
 			"subForms": [
 			]
@@ -114,10 +139,58 @@
 			},
 			"subForms": [
 			]
+		},
+"T_VNTASOWLLIHDH_105": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEBB_207": [
+					"AT40_NOMBREFH207"
+				],
+				"EN_CLIENTEDF_889": [
+					"AT32_CEDULAVN889",
+					"AT33_TELEFONO889",
+					"AT43_NOMBREKA889",
+					"AT59_APELLIOO889",
+					"AT69_DIRECCIN889"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_VNTAS_BUSCARNAM_19341",
+				"LBL_VNTAS_NOMBRETXL_69430",
+				"LBL_VNTAS_SELECCIOR_26607"
+			],
+			"queries": {
+				"Q_CLIEENNT_OJ89": [
+					"",
+					""
+				],
+				"Q_CLIENNEE_BG78": [
+					"",
+					"",
+					"QM_CLIEN87EGE822_05",
+					"QM_CLIEN8EE8E759_01",
+					"QM_CLIENEEE7G938_03",
+					"QM_CLIENEG777474_02",
+					"QM_CLIENENN87306_04"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
 		"Q_PRODDROD_BC88": {
+			"labels": [
+			]
+		},
+        "Q_CLIEENNT_OJ89": {
 			"labels": [
 			]
 		}

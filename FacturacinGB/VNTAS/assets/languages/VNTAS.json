@@ -11,7 +11,10 @@
 			"LBL_VNTAS_NOMBREGPI_12910": "Nombre",
 			"LBL_VNTAS_NOMBREHTO_29658": "nombre",
 			"LBL_VNTAS_PRECIORNV_35983": "Precio",
-			"LBL_VNTAS_SUBTOTALL_45341": "Subtotal"
+			"LBL_VNTAS_SUBTOTALL_45341": "Subtotal",
+                        "LBL_VNTAS_BUSCARNAM_19341": "BUSCAR",
+			"LBL_VNTAS_NOMBRETXL_69430": "Nombre",
+			"LBL_VNTAS_SELECCIOR_26607": "Seleccionar"
 		},
 		"MSG": {
 			"MSG_VNTAS_INGRESACO_63492": "Ingresar codigo",

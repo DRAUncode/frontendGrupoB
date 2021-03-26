@@ -1,0 +1,1 @@
+/* variables locales de T_VNTASOWLLIHDH_105*/

@@ -5,5 +5,15 @@
 				"$ref": "../FCTRC/queries/Q_PRODDROD_BC88.json#"
 			}
 		}
+	},
+	"EN_CLIENTEDF_889": {
+		"queries": {
+			"Q_CLIEENNT_OJ89": {
+				"$ref": "../FCTRC/queries/Q_CLIEENNT_OJ89.json#"
+			},
+			"Q_CLIENNEE_BG78": {
+				"$ref": "../FCTRC/queries/Q_CLIENNEE_BG78.json#"
+			}
+		}
 	}
 }

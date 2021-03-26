@@ -7,6 +7,22 @@
 				{
 					"generated": 0,
 					"moduleId": "VNTAS",
+					"name": "ClienteFRM",
+					"subModuleId": "FCTRC",
+					"taskId": "T_VNTASHOPPAOJM_591",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "VNTAS",
+					"name": "ClienteBusqueda",
+					"subModuleId": "FCTRC",
+					"taskId": "T_VNTASOWLLIHDH_105",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "VNTAS",
 					"name": "CrearProductoJms",
 					"subModuleId": "FCTRC",
 					"taskId": "T_VNTASVBJRCOWG_523",

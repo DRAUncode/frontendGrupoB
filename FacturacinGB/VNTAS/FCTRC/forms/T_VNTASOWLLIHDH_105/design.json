@@ -13,15 +13,15 @@
 	"id": {
 		"moduleId": "VNTAS",
 		"subModuleId": "FCTRC",
-		"taskId": "T_VNTASHOPPAOJM_591",
+		"taskId": "T_VNTASOWLLIHDH_105",
 		"version": "1.0.0"
 	},
 	"isCustomized": false,
 	"isImported": false,
-	"mainViewContainerId": "VC_CLIENTEFMM_277591",
+	"mainViewContainerId": "VC_CLIENTEBAE_947105",
 	"modeEnabled": 4095,
 	"name": {
-		"$ref": "../../../../VNTAS/relations/componentKeys.json#/FCTRC/Forms/T_VNTASHOPPAOJM_591/name"
+		"$ref": "../../../../VNTAS/relations/componentKeys.json#/FCTRC/Forms/T_VNTASOWLLIHDH_105/name"
 	},
 	"setFocus": false,
 	"tempSaveStr": "F",
@@ -40,13 +40,13 @@
 			"id": {
 				"moduleId": "VNTAS",
 				"subModuleId": "FCTRC",
-				"taskId": "T_VNTASHOPPAOJM_591",
+				"taskId": "T_VNTASOWLLIHDH_105",
 				"taskVersion": "1.0.0",
-				"viewContainerId": "VC_CLIENTEFMM_277591"
+				"viewContainerId": "VC_CLIENTEBAE_947105"
 			},
 			"isCustomized": false,
 			"layoutType": "Group",
-			"name": "ClienteFRM",
+			"name": "ClienteBusqueda",
 			"options": 0,
 			"responsiveLayouts": null,
 			"responsivity": false,
@@ -60,23 +60,22 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": 4095,
+						"enabled": 11,
 						"entity": {
 							"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_CLIENTEFMF_700124",
+						"groupId": "G_CLIENTEUSE_755985",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1244",
-						"order": 1,
+						"name": "Group2720",
+						"order": 2,
 						"orientation": "V",
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -91,11 +90,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/name"
@@ -110,160 +109,24 @@
 								"AT69_DIRECCIN889",
 								"AT33_TELEFONO889"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
 							"moduleIdDialog": null,
 							"multiSelectEnabledStr": "F",
-							"name": "QV_JV89_QEV44",
+							"name": "QV_MH78_OVE55",
 							"options": 0,
 							"pageSize": null,
 							"query": {
-								"$ref": "../../../../VNTAS/FCTRC/queries/Q_CLIEENNT_OJ89.json#"
+								"$ref": "../../../../VNTAS/FCTRC/queries/Q_CLIENNEE_BG78.json#"
 							},
+							"queryId": "Q_CLIENNEE_BG78",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
-								{
-									"action": null,
-									"commandImageId": null,
-									"commandName": "RowInserting",
-									"commandOrder": null,
-									"commandType": 0,
-									"customActionId": "CEQV_200QV_JV89_QEV44_945",
-									"customizationLayer": 0,
-									"customizationLayerDescription": "ECU",
-									"enabled": "T",
-									"eventActions": [
-										{
-											"actionArgs": [
-											],
-											"actionId": "CUSTOM",
-											"actionType": "CUSTOM"
-										},
-										{
-											"actionArgs": [
-											],
-											"actionId": "BLI9355_bli_ingresarcliente",
-											"actionType": "BLI",
-											"controlId": "QV_JV89_QEV44"
-										}
-									],
-									"executionType": 3,
-									"filter": null,
-									"isCustomized": false,
-									"name": "RowInserting",
-									"options": 0,
-									"queryView": "QV_JV89_QEV44",
-									"queryViewEventType": {
-										"availableExecutionType": 7,
-										"description": "Se ejecuta antes de que los datos insertados en una grilla sean comprometidos",
-										"eventId": 200,
-										"name": "RowInserting"
-									},
-									"serviceName": null,
-									"userControl": {
-										"customizationLayer": "0",
-										"customizationLayerDescription": "ECU",
-										"description": "Designer Button",
-										"type": "A",
-										"userControlId": "Button"
-									}
-								},
-								{
-									"action": null,
-									"commandImageId": null,
-									"commandName": "RowUpdating",
-									"commandOrder": null,
-									"commandType": 0,
-									"customActionId": "CEQV_203QV_JV89_QEV44_179",
-									"customizationLayer": 0,
-									"customizationLayerDescription": "ECU",
-									"enabled": "T",
-									"eventActions": [
-										{
-											"actionArgs": [
-											],
-											"actionId": "CUSTOM",
-											"actionType": "CUSTOM"
-										},
-										{
-											"actionArgs": [
-											],
-											"actionId": "BLI9722_bli_actualizarcliente",
-											"actionType": "BLI",
-											"controlId": "QV_JV89_QEV44"
-										}
-									],
-									"executionType": 3,
-									"filter": null,
-									"isCustomized": false,
-									"name": "RowUpdating",
-									"options": 0,
-									"queryView": "QV_JV89_QEV44",
-									"queryViewEventType": {
-										"availableExecutionType": 7,
-										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
-										"eventId": 203,
-										"name": "RowUpdating"
-									},
-									"serviceName": null,
-									"userControl": {
-										"customizationLayer": "0",
-										"customizationLayerDescription": "ECU",
-										"description": "Designer Button",
-										"type": "A",
-										"userControlId": "Button"
-									}
-								},
-								{
-									"action": null,
-									"commandImageId": null,
-									"commandName": "RowDeleting",
-									"commandOrder": null,
-									"commandType": 0,
-									"customActionId": "CEQV_204QV_JV89_QEV44_923",
-									"customizationLayer": 0,
-									"customizationLayerDescription": "ECU",
-									"enabled": "T",
-									"eventActions": [
-										{
-											"actionArgs": [
-											],
-											"actionId": "CUSTOM",
-											"actionType": "CUSTOM"
-										},
-										{
-											"actionArgs": [
-											],
-											"actionId": "BLI8736_bli_eliminarcliente",
-											"actionType": "BLI",
-											"controlId": "QV_JV89_QEV44"
-										}
-									],
-									"executionType": 3,
-									"filter": null,
-									"isCustomized": false,
-									"name": "RowDeleting",
-									"options": 0,
-									"queryView": "QV_JV89_QEV44",
-									"queryViewEventType": {
-										"availableExecutionType": 7,
-										"description": "Se ejecuta antes de que los datos eliminados en una grilla sean comprometidos.",
-										"eventId": 204,
-										"name": "RowDeleting"
-									},
-									"serviceName": null,
-									"userControl": {
-										"customizationLayer": "0",
-										"customizationLayerDescription": "ECU",
-										"description": "Designer Button",
-										"type": "A",
-										"userControlId": "Button"
-									}
-								}
 							],
-							"queryViewId": "QV_JV89_QEV44",
+							"queryViewId": "QV_MH78_OVE55",
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
@@ -281,12 +144,55 @@
 							},
 							"viewContainerIdDialog": null
 						},
-						"queryViewId": "QV_JV89_QEV44",
+						"queryViewId": "QV_MH78_OVE55",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
-						"visible": 4095,
+						"visible": 11,
 						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_SELECCIOR_26607"
+									},
+									"labelId": "LBL_VNTAS_SELECCIOR_26607",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_GRIDROWCOMMMDDN_234985",
+								"options": 0,
+								"order": 6,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"isRowCommand": true,
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_GRIDROWCOMMMDDN_234985",
+								"width": null,
+								"widthComposite": "D"
+							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
@@ -320,44 +226,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXHDC_138124",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT43_NOMBREKA889"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "nombre",
-								"options": 0,
-								"order": 2,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXJWE_416124",
+								"visualAttributeId": "VA_TEXTINPUTBOXBUR_253985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -394,7 +263,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXPZS_195124",
+								"visualAttributeId": "VA_TEXTINPUTBOXMOJ_376985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -402,7 +271,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT32_CEDULAVN889"
+									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT43_NOMBREKA889"
 								},
 								"attributeValidations": [
 								],
@@ -417,9 +286,9 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "cedula",
+								"name": "nombre",
 								"options": 0,
-								"order": 1,
+								"order": 2,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -431,7 +300,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXVJF_369124",
+								"visualAttributeId": "VA_TEXTINPUTBOXOZL_862985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -468,7 +337,213 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXXII_175124",
+								"visualAttributeId": "VA_TEXTINPUTBOXRDD_860985",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT32_CEDULAVN889"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXWZW_409985",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../VNTAS/entities/EN_CLIENTEBB_207.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CLIENTEUUD_556985",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1714",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer2665",
+								"options": 0,
+								"order": 2,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer2665",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_CLIENTEBB_207.json#/attributes/AT40_NOMBREFH207"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_NOMBRETXL_69430"
+									},
+									"labelId": "LBL_VNTAS_NOMBRETXL_69430",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBREKGBWMVGBT_885985",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONNSWSNEV_402985_501",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 3,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": "EN_CLIENTEDF_889",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_BUSCARNAM_19341"
+									},
+									"labelId": "LBL_VNTAS_BUSCARNAM_19341",
+									"moduleId": "VNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONNSWSNEV_402985",
+								"options": 0,
+								"order": 3,
+								"queryId": "Q_CLIEENNT_OJ89",
+								"queryModule": "VNTAS",
+								"queryVersion": "1.0.0",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONNSWSNEV_402985",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -477,7 +552,7 @@
 				],
 				"id": {
 					"version": "1.0.0",
-					"viewId": "VW_CLIENTEFMR_124"
+					"viewId": "VW_CLIENTEBUD_985"
 				},
 				"metadataVersion": "7.2.0.2024 BETA",
 				"modules": [
@@ -485,7 +560,7 @@
 						"moduleId": "VNTAS"
 					}
 				],
-				"name": "View of ClienteFRM"
+				"name": "View of ClienteBusqueda"
 			}
 		}
 	]
