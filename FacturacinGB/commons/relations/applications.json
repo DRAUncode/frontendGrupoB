@@ -7,24 +7,30 @@
 				{
 					"generated": 4,
 					"moduleId": "VNTAS",
+					"moduleName": "Ventas",
 					"name": "ClienteFRM",
 					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion",
 					"taskId": "T_VNTASHOPPAOJM_591",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "VNTAS",
+					"moduleName": "Ventas",
 					"name": "ProductoBusquedaToFactura",
 					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion",
 					"taskId": "T_VNTASNMVEWDXW_961",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "VNTAS",
+					"moduleName": "Ventas",
 					"name": "ClienteBusqueda",
 					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion",
 					"taskId": "T_VNTASOWLLIHDH_105",
 					"type": "Simple form"
 				},

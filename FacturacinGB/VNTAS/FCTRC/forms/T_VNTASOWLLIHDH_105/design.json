@@ -103,11 +103,11 @@
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
+								"AT33_TELEFONO889",
 								"AT32_CEDULAVN889",
-								"AT43_NOMBREKA889",
 								"AT59_APELLIOO889",
-								"AT69_DIRECCIN889",
-								"AT33_TELEFONO889"
+								"AT43_NOMBREKA889",
+								"AT69_DIRECCIN889"
 							],
 							"insertCommandEnabled": false,
 							"insertCommandEnabledStr": "F",
@@ -116,17 +116,15 @@
 							"modeSelection": "None",
 							"moduleIdDialog": null,
 							"multiSelectEnabledStr": "F",
-							"name": "QV_MH78_OVE55",
+							"name": "QV_DQ78_ZJY39",
 							"options": 0,
 							"pageSize": null,
 							"query": {
 								"$ref": "../../../../VNTAS/FCTRC/queries/Q_CLIENNEE_BG78.json#"
 							},
-							"queryId": "Q_CLIENNEE_BG78",
-							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
-							"queryViewId": "QV_MH78_OVE55",
+							"queryViewId": "QV_DQ78_ZJY39",
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
@@ -144,92 +142,12 @@
 							},
 							"viewContainerIdDialog": null
 						},
-						"queryViewId": "QV_MH78_OVE55",
+						"queryViewId": "QV_DQ78_ZJY39",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
 						"visible": 11,
 						"visualAttributes": [
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"entityQuery": null,
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../VNTAS/assets/languages/VNTAS.json#/VNTAS/LBL/LBL_VNTAS_SELECCIOR_26607"
-									},
-									"labelId": "LBL_VNTAS_SELECCIOR_26607",
-									"moduleId": "VNTAS"
-								},
-								"maxRecords": null,
-								"name": "VA_GRIDROWCOMMMDDN_234985",
-								"options": 0,
-								"order": 6,
-								"queryModule": null,
-								"queryVersion": null,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"isRowCommand": true,
-									"type": "A",
-									"userControlId": "Button"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_GRIDROWCOMMMDDN_234985",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT69_DIRECCIN889"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "direccion",
-								"options": 0,
-								"order": 4,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXBUR_253985",
-								"width": null,
-								"widthComposite": "D"
-							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
@@ -263,7 +181,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXMOJ_376985",
+								"visualAttributeId": "VA_TEXTINPUTBOXBJP_124985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -300,7 +218,44 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXOZL_862985",
+								"visualAttributeId": "VA_TEXTINPUTBOXFWU_980985",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../VNTAS/entities/EN_CLIENTEDF_889.json#/attributes/AT69_DIRECCIN889"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "direccion",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXMYO_808985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -337,7 +292,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXRDD_860985",
+								"visualAttributeId": "VA_TEXTINPUTBOXTMO_229985",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -374,7 +329,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXWZW_409985",
+								"visualAttributeId": "VA_TEXTINPUTBOXWRA_946985",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -531,7 +486,7 @@
 								"name": "VA_VABUTTONNSWSNEV_402985",
 								"options": 0,
 								"order": 3,
-								"queryId": "Q_CLIEENNT_OJ89",
+								"queryId": "Q_CLIENNEE_BG78",
 								"queryModule": "VNTAS",
 								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,

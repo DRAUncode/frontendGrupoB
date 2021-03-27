@@ -16,12 +16,6 @@
 	"queries": [
 		{
 			"moduleId": "VNTAS",
-			"queryId": "Q_CLIEENNT_OJ89",
-			"related": false,
-			"subModuleId": "FCTRC"
-		},
-		{
-			"moduleId": "VNTAS",
 			"queryId": "Q_CLIENNEE_BG78",
 			"related": false,
 			"subModuleId": "FCTRC"
