@@ -5,10 +5,22 @@
 		"forms": {
 			"VNTAS": [
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "VNTAS",
+					"moduleName": "Ventas",
+					"name": "Producto",
+					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion",
+					"taskId": "T_VNTASHZVIHMHR_590",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "VNTAS",
+					"moduleName": "Ventas",
 					"name": "CrearProductoJms",
 					"subModuleId": "FCTRC",
+					"subModuleName": "Facturacion",
 					"taskId": "T_VNTASVBJRCOWG_523",
 					"type": "Simple form"
 				}
