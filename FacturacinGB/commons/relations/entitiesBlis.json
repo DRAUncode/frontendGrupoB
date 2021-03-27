@@ -1,21 +1,111 @@
 {
-    "VNTAS": [
-        {
-            "entities": {
-                "inputEntity": [
-                    {
-                        "entityId": "EN_PRODUCTAR_638",
-                        "moduleId": "VNTAS",
-                        "related": false
-                    }
-                ],
-                "outputEntity": [
-                ],
-                "returnEntity": [
-                ]
-            },
-            "idBli": "BLI2705_bli_crearproducto",
-            "nameBli": "BLI_CrearProducto"
-        }
-    ]
+	"VNTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEDF_889",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5388_bli_recuperarcliente",
+			"nameBli": "BLI_RecuperarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEDF_889",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8329_bli_busquedaclientes",
+			"nameBli": "BLI_BusquedaClientes"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEDF_889",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8736_bli_eliminarcliente",
+			"nameBli": "BLI_EliminarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEDF_889",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9355_bli_ingresarcliente",
+			"nameBli": "BLI_IngresarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_BUSCARPID_564",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTRA_435",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9550_bli_buscarproductocodigo",
+			"nameBli": "BLI_BuscarProductoCodigo"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTEDF_889",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9722_bli_actualizarcliente",
+			"nameBli": "BLI_ActualizarCliente"
+		}
+	]
 }

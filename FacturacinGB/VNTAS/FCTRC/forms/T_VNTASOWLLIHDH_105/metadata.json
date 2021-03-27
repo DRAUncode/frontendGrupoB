@@ -1,6 +1,12 @@
 {
 	"entities": [
 		{
+			"entityId": "EN_CLIENTEBB_207",
+			"isContextEntity": null,
+			"moduleId": "VNTAS",
+			"related": false
+		},
+		{
 			"entityId": "EN_CLIENTEDF_889",
 			"isContextEntity": null,
 			"moduleId": "VNTAS",
@@ -11,6 +17,12 @@
 		{
 			"moduleId": "VNTAS",
 			"queryId": "Q_CLIEENNT_OJ89",
+			"related": false,
+			"subModuleId": "FCTRC"
+		},
+		{
+			"moduleId": "VNTAS",
+			"queryId": "Q_CLIENNEE_BG78",
 			"related": false,
 			"subModuleId": "FCTRC"
 		}

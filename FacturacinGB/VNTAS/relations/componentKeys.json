@@ -3,6 +3,12 @@
 		"EN_BUSCARPID_564": {
 			"name": "BuscarProductoCodigo"
 		},
+		"EN_CLIENTEBB_207": {
+			"name": "ClienteB"
+		},
+		"EN_CLIENTEDF_889": {
+			"name": "Cliente"
+		},
 		"EN_PRODUCTAR_638": {
 			"name": "ProductoDRA"
 		},
@@ -14,19 +20,22 @@
 		"CompositeForms": {
 		},
 		"Forms": {
-			"T_VNTASAMFLELZO_924": {
-				"name": "BucarProductoToFacturaFRM"
-			},
 			"T_VNTASHOPPAOJM_591": {
 				"name": "ClienteFRM"
 			},
-			"T_VNTASVBJRCOWG_523": {
-				"name": "CrearProductoJms"
+			"T_VNTASNMVEWDXW_961": {
+				"name": "ProductoBusquedaToFactura"
+			},
+			"T_VNTASOWLLIHDH_105": {
+				"name": "ClienteBusqueda"
 			}
 		},
 		"Queries": {
-			"Q_PRODDROD_BC88": {
-				"name": "ProductoDRAQuery_BC88"
+			"Q_CLIEENNT_OJ89": {
+				"name": "ClienteQuery"
+			},
+			"Q_CLIENNEE_BG78": {
+				"name": "ClienteQuery_BG78"
 			}
 		},
 		"SubForms": {

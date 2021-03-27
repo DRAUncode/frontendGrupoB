@@ -7,6 +7,7 @@
 				{
 					"generated": 4,
 					"moduleId": "VNTAS",
+<<<<<<< HEAD
 					"moduleName": "Ventas",
 					"name": "Producto",
 					"subModuleId": "FCTRC",
@@ -22,6 +23,27 @@
 					"subModuleId": "FCTRC",
 					"subModuleName": "Facturacion",
 					"taskId": "T_VNTASVBJRCOWG_523",
+=======
+					"name": "ClienteFRM",
+					"subModuleId": "FCTRC",
+					"taskId": "T_VNTASHOPPAOJM_591",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "VNTAS",
+					"name": "ProductoBusquedaToFactura",
+					"subModuleId": "FCTRC",
+					"taskId": "T_VNTASNMVEWDXW_961",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "VNTAS",
+					"name": "ClienteBusqueda",
+					"subModuleId": "FCTRC",
+					"taskId": "T_VNTASOWLLIHDH_105",
+>>>>>>> b3048ca41ddb32d6027b7e1f023249fc636d4116
 					"type": "Simple form"
 				}
 			]
@@ -35,7 +57,7 @@
 			"type": "HTML5"
 		},
 		"id": "APP_TALLERDEFTP_222",
-		"mainPortletTaskId": "T_VNTASVBJRCOWG_523",
+		"mainPortletTaskId": "T_VNTASHOPPAOJM_591",
 		"modules": [
 			"VNTAS"
 		],

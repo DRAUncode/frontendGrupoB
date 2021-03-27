@@ -1,0 +1,113 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_BUSCARPID_564",
+			"module": {
+				"moduleId": "VNTAS",
+				"moduleName": "Ventas"
+			},
+			"name": "BuscarProductoCodigo"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172179"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "AT58_CODIGORC564",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_BUSCARPID_564",
+			"format": "",
+			"name": "@i_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_BuscarProductoCodigo",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9550_bli_buscarproductocodigo",
+	"patternName": "BLI_BuscarProductoCodigo",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "c76d91b0-ee18-4040-a8c5-bc84db711ae0",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": true,
+			"numberQuery": 1,
+			"queryName": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "c76d91b0-ee18-4040-a8c5-bc84db711ae0",
+			"columns": [
+				{
+					"attributeId": "AT95_CODIGORK435",
+					"entityId": "EN_PRODUCTRA_435",
+					"format": "",
+					"name": "Codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT82_NOMBREQP435",
+					"entityId": "EN_PRODUCTRA_435",
+					"format": "",
+					"name": "Nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT96_PRECIOKQ435",
+					"entityId": "EN_PRODUCTRA_435",
+					"format": "",
+					"name": "Precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": true
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTRA_435",
+			"module": {
+				"moduleId": "VNTAS",
+				"moduleName": "Ventas"
+			},
+			"name": "ProductoToFactura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gBJ_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

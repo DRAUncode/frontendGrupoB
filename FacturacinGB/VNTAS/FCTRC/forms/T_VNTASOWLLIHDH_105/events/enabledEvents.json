@@ -1,0 +1,48 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEENNT_OJ89",
+		"controlName": "ClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../VNTAS/FCTRC/queries/Q_CLIEENNT_OJ89.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIENNEE_BG78",
+		"controlName": "ClienteQuery_BG78",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../VNTAS/FCTRC/queries/Q_CLIENNEE_BG78.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONNSWSNEV_402985",
+		"controlName": "VA_VABUTTONNSWSNEV_402985",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "ClienteB",
+		"eventsType": "visualAttributeEventType"
+	}
+]
