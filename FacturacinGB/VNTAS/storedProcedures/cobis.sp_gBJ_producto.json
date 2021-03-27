@@ -1,5 +1,5 @@
 {
-	"filename": "C:\\Users\\DORIAN RAMOS\\Documents\\TALLESFACTURACION\\back\\spo\\sp_grpB_producto.sql",
+	"filename": "C:\\Users\\jorge\\Desktop\\Trabajos_Capacitacion_fase3\\BLIS\\sp_bBJ_jms.sql",
 	"procedure": {
 		"database": "cobis",
 		"name": "sp_gBJ_producto",
@@ -58,23 +58,23 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "c76d91b0-ee18-4040-a8c5-bc84db711ae0",
+				"_idQuery": "b3cf70d9-e1aa-4741-a4b1-09ac939c9c5a",
 				"columns": [
 					"Codigo",
 					"Nombre",
 					"Precio"
 				],
-				"editMode": false,
+				"editMode": true,
 				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
 			},
 			{
-				"_idQuery": "577e6722-3c12-4447-8ffa-1bf63e92773c",
+				"_idQuery": "b131d039-a56b-49f9-a729-cf992d39f4cd",
 				"columns": [
 					"Codigo",
 					"Nombre",
 					"Precio"
 				],
-				"editMode": false,
+				"editMode": true,
 				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
 			}
 		],

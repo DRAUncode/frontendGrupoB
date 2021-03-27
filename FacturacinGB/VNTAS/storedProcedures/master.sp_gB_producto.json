@@ -1,7 +1,7 @@
 {
 	"filename": "C:\\Users\\jorge\\Desktop\\Trabajos_Capacitacion_fase3\\BLIS\\sp_productg.sql",
 	"procedure": {
-		"database": "master",
+		"database": "cobis",
 		"name": "sp_gB_producto",
 		"owner": "dbo",
 		"parameters": [

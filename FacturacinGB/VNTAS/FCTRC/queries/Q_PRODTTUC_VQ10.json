@@ -1,0 +1,118 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_PRODTTUC_VQ10_359",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PRODTTUC_VQ10",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PRODUCTAR_638",
+	"mainEntityModule": "VNTAS",
+	"mainEntityName": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/Entities/EN_PRODUCTAR_638/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/FCTRC/Queries/Q_PRODTTUC_VQ10/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT56_CODIGOMP638"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODTCV1TT980_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT89_NOMBREUN638"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODTT1UQU186_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT12_PRECIOVW638"
+			},
+			"attributeQuery": "precio",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODTVC1CT569_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "VNTAS",
+				"subModuleId": "FCTRC"
+			}
+		}
+	]
+}

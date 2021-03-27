@@ -1,0 +1,94 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172179"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		}
+	],
+	"name": "BLI_VerProductos",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6775_bli_verproductos",
+	"patternName": "BLI_VerProductos",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "b131d039-a56b-49f9-a729-cf992d39f4cd",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "b131d039-a56b-49f9-a729-cf992d39f4cd",
+			"columns": [
+				{
+					"attributeId": "AT56_CODIGOMP638",
+					"entityId": "EN_PRODUCTAR_638",
+					"format": "",
+					"name": "Codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT89_NOMBREUN638",
+					"entityId": "EN_PRODUCTAR_638",
+					"format": "",
+					"name": "Nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT12_PRECIOVW638",
+					"entityId": "EN_PRODUCTAR_638",
+					"format": "",
+					"name": "Precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTAR_638",
+			"module": {
+				"moduleId": "VNTAS",
+				"moduleName": "Ventas"
+			},
+			"name": "ProductoDRA"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gBJ_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

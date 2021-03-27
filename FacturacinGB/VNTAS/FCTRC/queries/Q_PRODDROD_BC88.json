@@ -1,0 +1,108 @@
+{
+	"customEvents": [
+		{
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PRODDROD_BC88",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PRODUCTAR_638",
+	"mainEntityModule": "VNTAS",
+	"mainEntityName": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/Entities/EN_PRODUCTAR_638/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../VNTAS/relations/componentKeys.json#/FCTRC/Queries/Q_PRODDROD_BC88/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT12_PRECIOVW638"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PRODD8D88D676_03",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT89_NOMBREUN638"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PRODDDR88R997_02",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../VNTAS/entities/EN_PRODUCTAR_638.json#/attributes/AT56_CODIGOMP638"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_PRODDOBRRR506_01",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "VNTAS",
+				"subModuleId": "FCTRC"
+			}
+		}
+	]
+}

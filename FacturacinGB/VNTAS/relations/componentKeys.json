@@ -20,6 +20,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_VNTASAMFLELZO_924": {
+				"name": "BucarProductoToFacturaFRM"
+			},
 			"T_VNTASHOPPAOJM_591": {
 				"name": "ClienteFRM"
 			},
@@ -28,6 +31,12 @@
 			},
 			"T_VNTASOWLLIHDH_105": {
 				"name": "ClienteBusqueda"
+			},
+                        "T_VNTASHZVIHMHR_590": {
+				"name": "Producto"
+			},
+			"T_VNTASVBJRCOWG_523": {
+				"name": "CrearProductoJms"
 			}
 		},
 		"Queries": {
@@ -36,6 +45,12 @@
 			},
 			"Q_CLIENNEE_BG78": {
 				"name": "ClienteQuery_BG78"
+			},
+                        "Q_PRODDROD_BC88": {
+				"name": "ProductoDRAQuery_BC88"
+			},
+			"Q_PRODTTUC_VQ10": {
+				"name": "ProductoDRAQuery"
 			}
 		},
 		"SubForms": {

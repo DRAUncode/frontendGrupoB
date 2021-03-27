@@ -106,6 +106,74 @@
 			},
 			"idBli": "BLI9722_bli_actualizarcliente",
 			"nameBli": "BLI_ActualizarCliente"
+		},
+                {
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTAR_638",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3119_bli_eliminarproducto",
+			"nameBli": "BLI_EliminarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTAR_638",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4577_bli_actualizarproducto",
+			"nameBli": "BLI_ActualizarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTAR_638",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6775_bli_verproductos",
+			"nameBli": "BLI_VerProductos"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTAR_638",
+						"moduleId": "VNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7285_bli_crearproducto",
+			"nameBli": "BLI_CrearProducto"
 		}
 	]
 }
