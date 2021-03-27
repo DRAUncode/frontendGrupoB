@@ -59,6 +59,35 @@
 			"subForms": [
 			]
 		},
+		"T_VNTASHZVIHMHR_590": {
+			"blis": [
+				"BLI3119_bli_eliminarproducto"
+			],
+			"entities": {
+				"EN_PRODUCTAR_638": [
+					"AT12_PRECIOVW638",
+					"AT56_CODIGOMP638",
+					"AT89_NOMBREUN638"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_PRODTTUC_VQ10": [
+					"QM_PRODTCV1TT980_02",
+					"QM_PRODTT1UQU186_03",
+					"QM_PRODTVC1CT569_01"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_VNTASNMVEWDXW_961": {
 			"blis": [
 			],
@@ -119,11 +148,9 @@
 				"LBL_VNTAS_SELECCIOR_26607"
 			],
 			"queries": {
-				"Q_CLIEENNT_OJ89": [
-					"",
-					""
-				],
 				"Q_CLIENNEE_BG78": [
+					"",
+					"",
 					"",
 					"",
 					"QM_CLIEN87EGE822_05",
@@ -201,6 +228,10 @@
 	},
 	"Queries": {
 		"Q_CLIEENNT_OJ89": {
+			"labels": [
+			]
+		},
+		"Q_CLIENNEE_BG78": {
 			"labels": [
 			]
 		},

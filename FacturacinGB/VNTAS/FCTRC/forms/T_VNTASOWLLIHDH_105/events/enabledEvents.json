@@ -1,22 +1,6 @@
 [
 	{
 		"attributeName": "",
-		"controlId": "Q_CLIEENNT_OJ89",
-		"controlName": "ClienteQuery",
-		"controlType": "Query",
-		"customEvents": [
-			{
-				"eventName": "executeQuery",
-				"executionType": {
-					"$ref": "../../../../../VNTAS/FCTRC/queries/Q_CLIEENNT_OJ89.json#/customEvents"
-				}
-			}
-		],
-		"entityName": "Cliente",
-		"eventsType": "queryEventType"
-	},
-	{
-		"attributeName": "",
 		"controlId": "Q_CLIENNEE_BG78",
 		"controlName": "ClienteQuery_BG78",
 		"controlType": "Query",

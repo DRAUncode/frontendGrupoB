@@ -12,7 +12,7 @@
 			"format": "",
 			"name": "@i_caracter",
 			"type": "CUSTOM",
-			"value": "nombre"
+			"value": "nombreBusqueda"
 		},
 		{
 			"attributeId": "",
