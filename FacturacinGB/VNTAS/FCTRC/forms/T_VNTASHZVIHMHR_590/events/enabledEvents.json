@@ -1,0 +1,46 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODTTUC_VQ10",
+		"controlName": "ProductoDRAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../VNTAS/FCTRC/queries/Q_PRODTTUC_VQ10.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_XT10_KSM84",
+		"controlName": "QV_XT10_KSM84",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_PRODUCTOHR_411590",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODDROD_BC88",
+		"controlName": "ProductoDRAQuery_BC88",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../VNTAS/FCTRC/queries/Q_PRODDROD_BC88.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_LL88_PZG35",
+		"controlName": "QV_LL88_PZG35",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "ProductoDRA",
+		"eventsType": "queryViewEventType"
+	}
+]
