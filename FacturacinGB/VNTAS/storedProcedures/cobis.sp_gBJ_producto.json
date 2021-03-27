@@ -1,0 +1,100 @@
+{
+	"filename": "C:\\Users\\DORIAN RAMOS\\Documents\\TALLESFACTURACION\\back\\spo\\sp_grpB_producto.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_gBJ_producto",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_precio"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "c76d91b0-ee18-4040-a8c5-bc84db711ae0",
+				"columns": [
+					"Codigo",
+					"Nombre",
+					"Precio"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+			},
+			{
+				"_idQuery": "577e6722-3c12-4447-8ffa-1bf63e92773c",
+				"columns": [
+					"Codigo",
+					"Nombre",
+					"Precio"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\t\u0027Codigo\u0027\t\t\t=pr_codigo,\r\n\t\t\t\u0027Nombre\u0027\t\t\t=pr_nombre,\r\n\t\t\t\u0027Precio\u0027\t\t\t=pr_precio\r\n\t\t from"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

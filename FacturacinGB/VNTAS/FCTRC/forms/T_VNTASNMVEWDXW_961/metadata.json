@@ -5,6 +5,12 @@
 			"isContextEntity": null,
 			"moduleId": "VNTAS",
 			"related": false
+		},
+		{
+			"entityId": "EN_PRODUCTRA_435",
+			"isContextEntity": null,
+			"moduleId": "VNTAS",
+			"related": false
 		}
 	],
 	"queries": [
