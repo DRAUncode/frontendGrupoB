@@ -135,38 +135,6 @@
 			},
 			"subForms": [
 			]
-		},
-		"T_VNTASVBJRCOWG_523": {
-			"blis": [
-				"BLI2705_bli_crearproducto"
-			],
-			"entities": {
-				"EN_PRODUCTAR_638": [
-					"AT12_PRECIOVW638",
-					"AT56_CODIGOMP638",
-					"AT89_NOMBREUN638"
-				]
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-				"LBL_VNTAS_ACTUALIZZ_52210",
-				"LBL_VNTAS_CODIGOYRV_66784",
-				"LBL_VNTAS_INGRESARR_89611",
-				"LBL_VNTAS_NOMBREGPI_12910",
-				"LBL_VNTAS_PRECIORNV_35983",
-				"MSG_VNTAS_INGRESACO_63492",
-				"MSG_VNTAS_INGRESAIE_88053",
-				"MSG_VNTAS_INGRESAON_58658"
-			],
-			"queries": {
-			},
-			"subForms": [
-			]
 		}
 	},
 	"Queries": {
