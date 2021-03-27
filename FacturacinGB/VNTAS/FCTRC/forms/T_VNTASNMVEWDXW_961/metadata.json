@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_BUSCARPID_564",
+			"isContextEntity": null,
+			"moduleId": "VNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

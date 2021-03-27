@@ -59,6 +59,29 @@
 			"subForms": [
 			]
 		},
+		"T_VNTASNMVEWDXW_961": {
+			"blis": [
+			],
+			"entities": {
+				"EN_BUSCARPID_564": [
+					"AT58_CODIGORC564"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_VNTAS_BUSCARKFM_71068",
+				"LBL_VNTAS_CODIGOPHK_71328"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_VNTASOWLLIHDH_105": {
 			"blis": [
 			],

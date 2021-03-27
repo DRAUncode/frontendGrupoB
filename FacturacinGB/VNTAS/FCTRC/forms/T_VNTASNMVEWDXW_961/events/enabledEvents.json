@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONXGVIFXO_807351",
+		"controlName": "VA_VABUTTONXGVIFXO_807351",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "BuscarProductoCodigo",
+		"eventsType": "visualAttributeEventType"
+	}
+]
