@@ -65,6 +65,12 @@
 			"entities": {
 				"EN_BUSCARPID_564": [
 					"AT58_CODIGORC564"
+				],
+				"EN_PRODUCTRA_435": [
+					"AT82_NOMBREQP435",
+					"AT83_CANTIDDD435",
+					"AT95_CODIGORK435",
+					"AT96_PRECIOKQ435"
 				]
 			},
 			"externalEntities": {
@@ -74,8 +80,12 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_VNTAS_ACEPTARYJ_45622",
 				"LBL_VNTAS_BUSCARKFM_71068",
-				"LBL_VNTAS_CODIGOPHK_71328"
+				"LBL_VNTAS_CANTIDADD_39908",
+				"LBL_VNTAS_CODIGOPHK_71328",
+				"LBL_VNTAS_NOMBREHTO_29658",
+				"LBL_VNTAS_PRECIORNV_35983"
 			],
 			"queries": {
 			},
