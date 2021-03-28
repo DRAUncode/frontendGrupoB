@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_FACTURAUA_612",
+			"isContextEntity": null,
+			"moduleId": "VNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

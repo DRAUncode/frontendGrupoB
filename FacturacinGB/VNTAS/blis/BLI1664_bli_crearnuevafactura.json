@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067176"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_crearNuevaFactura",
+	"outputEntity": [
+		{
+			"entityId": "EN_FACTURAUA_612",
+			"module": {
+				"moduleId": "VNTAS",
+				"moduleName": "Ventas"
+			},
+			"name": "Factura"
+		}
+	],
+	"outputParameters": [
+		{
+			"attributeId": "AT59_CODIGOAR612",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "EN_FACTURAUA_612",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"patternId": "BLI1664_bli_crearnuevafactura",
+	"patternName": "BLI_crearNuevaFactura",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gb_facturacion",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
