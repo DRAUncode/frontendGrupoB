@@ -9,6 +9,9 @@
 		"EN_CLIENTEDF_889": {
 			"name": "Cliente"
 		},
+		"EN_FACTURAUA_612": {
+			"name": "Factura"
+		},
 		"EN_PRODUCTAR_638": {
 			"name": "ProductoDRA"
 		},
@@ -26,17 +29,20 @@
 			"T_VNTASHOPPAOJM_591": {
 				"name": "ClienteFRM"
 			},
+			"T_VNTASHZVIHMHR_590": {
+				"name": "Producto"
+			},
 			"T_VNTASNMVEWDXW_961": {
 				"name": "ProductoBusquedaToFactura"
 			},
 			"T_VNTASOWLLIHDH_105": {
 				"name": "ClienteBusqueda"
 			},
-                        "T_VNTASHZVIHMHR_590": {
-				"name": "Producto"
-			},
 			"T_VNTASVBJRCOWG_523": {
 				"name": "CrearProductoJms"
+			},
+			"T_VNTASXVDJEXDU_728": {
+				"name": "FacturaFRM"
 			}
 		},
 		"Queries": {
@@ -46,7 +52,7 @@
 			"Q_CLIENNEE_BG78": {
 				"name": "ClienteQuery_BG78"
 			},
-                        "Q_PRODDROD_BC88": {
+			"Q_PRODDROD_BC88": {
 				"name": "ProductoDRAQuery_BC88"
 			},
 			"Q_PRODTTUC_VQ10": {

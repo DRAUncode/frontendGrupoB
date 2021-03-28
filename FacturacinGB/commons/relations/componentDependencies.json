@@ -14,6 +14,10 @@
 			"labels": [
 			]
 		},
+		"EN_FACTURAUA_612": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTAR_638": {
 			"labels": [
 			]
@@ -163,35 +167,6 @@
 			"subForms": [
 			]
 		},
-                 "T_VNTASHZVIHMHR_590": {
-			"blis": [
-				"BLI3119_bli_eliminarproducto"
-			],
-			"entities": {
-				"EN_PRODUCTAR_638": [
-					"AT12_PRECIOVW638",
-					"AT56_CODIGOMP638",
-					"AT89_NOMBREUN638"
-				]
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-			],
-			"queries": {
-				"Q_PRODTTUC_VQ10": [
-					"QM_PRODTCV1TT980_02",
-					"QM_PRODTT1UQU186_03",
-					"QM_PRODTVC1CT569_01"
-				]
-			},
-			"subForms": [
-			]
-		},
 		"T_VNTASVBJRCOWG_523": {
 			"blis": [
 				"BLI4577_bli_actualizarproducto",
@@ -224,6 +199,29 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_VNTASXVDJEXDU_728": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FACTURAUA_612": [
+					"AT59_CODIGOAR612"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_VNTAS_NMEROFATA_25506",
+				"LBL_VNTAS_NUEVAFAUT_31419"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
@@ -235,7 +233,7 @@
 			"labels": [
 			]
 		},
-                "Q_PRODDROD_BC88": {
+		"Q_PRODDROD_BC88": {
 			"labels": [
 			]
 		},
