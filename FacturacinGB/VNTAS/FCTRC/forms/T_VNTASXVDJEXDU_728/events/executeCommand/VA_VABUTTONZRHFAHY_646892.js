@@ -8,4 +8,5 @@ task.executeCommand.VA_VABUTTONZRHFAHY_646892 = function(  entities, executeComm
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.Factura = true;
     console.log('Creand nueva factura')
+    
 };

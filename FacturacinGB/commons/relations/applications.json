@@ -5,7 +5,7 @@
 		"forms": {
 			"VNTAS": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "VNTAS",
 					"name": "ClienteFRM",
 					"subModuleId": "FCTRC",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "VNTAS",
 					"name": "Producto",
 					"subModuleId": "FCTRC",
@@ -21,7 +21,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "VNTAS",
 					"name": "ProductoBusquedaToFactura",
 					"subModuleId": "FCTRC",
@@ -29,7 +29,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "VNTAS",
 					"name": "ClienteBusqueda",
 					"subModuleId": "FCTRC",
@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "VNTAS",
 					"name": "CrearProductoJms",
 					"subModuleId": "FCTRC",
@@ -45,7 +45,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "VNTAS",
 					"name": "FacturaFRM",
 					"subModuleId": "FCTRC",
