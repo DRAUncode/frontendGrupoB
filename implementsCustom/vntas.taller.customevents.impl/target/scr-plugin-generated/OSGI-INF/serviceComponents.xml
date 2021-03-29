@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ClienteQuery_QV_JV89_QEV44">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ClienteQuery_QV_JV89_QEV44"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IGridRowDeleting"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_JV89_QEV44"/>
+        <property name="queryView.controlId" type="String" value="QV_JV89_QEV44"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ClienteQuery_QV_JV89_QEV44"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ProductoDRAQuery_QV_XT10_KSM84">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ProductoDRAQuery_QV_XT10_KSM84"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IGridRowDeleting"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_XT10_KSM84"/>
+        <property name="queryView.controlId" type="String" value="QV_XT10_KSM84"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowdeleting.ProductoDRAQuery_QV_XT10_KSM84"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowinserting.ClienteQuery_QV_JV89_QEV44">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowinserting.ClienteQuery_QV_JV89_QEV44"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IGridRowInserting"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_JV89_QEV44"/>
+        <property name="queryView.controlId" type="String" value="QV_JV89_QEV44"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowinserting.ClienteQuery_QV_JV89_QEV44"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowupdating.ClienteQuery_QV_JV89_QEV44">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowupdating.ClienteQuery_QV_JV89_QEV44"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IGridRowUpdating"/>
+        </service>
+        <property name="queryView.id" type="String" value="QV_JV89_QEV44"/>
+        <property name="queryView.controlId" type="String" value="QV_JV89_QEV44"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.queryview.rowupdating.ClienteQuery_QV_JV89_QEV44"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONDPKKAET_915913">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONDPKKAET_915913"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_CREARPROOD_913"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONDPKKAET_915913"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONDPKKAET_915913"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONLJRDRMK_510913">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONLJRDRMK_510913"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_CREARPROOD_913"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONLJRDRMK_510913"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONLJRDRMK_510913"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONNSWSNEV_402985">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONNSWSNEV_402985"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_CLIENTEBUD_985"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONNSWSNEV_402985"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONNSWSNEV_402985"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONUKBRBCE_619594">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONUKBRBCE_619594"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_FACTURAFMM_594"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONUKBRBCE_619594"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONUKBRBCE_619594"/>
+        <reference name="bliExecutor" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI6727_bli_crearnuevafactura)" bind="setBliExecutor" unbind="unsetBliExecutor"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONXGVIFXO_807351">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONXGVIFXO_807351"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_PRODUCTORA_351"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONXGVIFXO_807351"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONXGVIFXO_807351"/>
+        <reference name="bliExecutor" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI9550_bli_buscarproductocodigo)" bind="setBliExecutor" unbind="unsetBliExecutor"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONZRHFAHY_646892">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONZRHFAHY_646892"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteCommand"/>
+        </service>
+        <property name="view.id" type="String" value="VW_FACTURAFRR_892"/>
+        <property name="view.version" type="String" value="1.0.0"/>
+        <property name="view.controlId" type="String" value="VA_VABUTTONZRHFAHY_646892"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.view.executecommand.VA_VABUTTONZRHFAHY_646892"/>
+        <reference name="bliExecutor" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI1664_bli_crearnuevafactura)" bind="setBliExecutor" unbind="unsetBliExecutor"/>
+    </scr:component>
+</components>
