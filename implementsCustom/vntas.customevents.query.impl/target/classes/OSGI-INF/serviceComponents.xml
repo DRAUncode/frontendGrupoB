@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_BG78_Q_CLIENNEE_BG78">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_BG78_Q_CLIENNEE_BG78"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CLIENNEE_BG78"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_BG78_Q_CLIENNEE_BG78"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIEENNT_OJ89">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIEENNT_OJ89"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_CLIEENNT_OJ89"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ClienteQuery_Q_CLIEENNT_OJ89"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_BC88_Q_PRODDROD_BC88">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_BC88_Q_PRODDROD_BC88"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PRODDROD_BC88"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_BC88_Q_PRODDROD_BC88"/>
+    </scr:component>
+    <scr:component enabled="true" name="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_Q_PRODTTUC_VQ10">
+        <implementation class="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_Q_PRODTTUC_VQ10"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.customization.IExecuteQuery"/>
+        </service>
+        <property name="query.id" type="String" value="Q_PRODTTUC_VQ10"/>
+        <property name="query.version" type="String" value="1.0.0"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.vntas.customevents.impl.query.executequery.ProductoDRAQuery_Q_PRODTTUC_VQ10"/>
+    </scr:component>
+</components>
